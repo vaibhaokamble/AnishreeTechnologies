@@ -1,0 +1,54 @@
+
+.navbar ul {
+    margin: 0;
+    padding: 5px;
+    list-style-type: none;
+    font-size: 22px;
+    font-family: Segoe UI;  
+
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    background-color: #f10871;
+    border-radius: 5px;
+}
+
+
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.navbar ul li:hover ul {
+    display: block; 
+}
+
+.navbar ul li ul li {
+    float: none;
+    border-bottom: 1px solid #e8dddd; 
+    border-radius: 5px;
+}
+
+.navbar ul li ul li:last-child {
+    border-bottom: none;
+}
+
+.navbar ul li ul li a {
+    padding: 10px 20px;
+    border-radius: 5px;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html call the javascript function</title>
+    <script type="text/javascript">
+        function show()
+        {
+            var v=document.getElementById("h");
+            var data=v.innerHTML;
+            v.innerHTML="After Button click";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="h">Hay this is my first program</h1>
+    <br><br><br><br>
+    <input type="submit" value="submit" onclick="show()"/>
+</body>
+</html>

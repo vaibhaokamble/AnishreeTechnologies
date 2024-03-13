@@ -1,0 +1,74 @@
+.container{
+  height: 1500px;
+
+}
+
+.navbar{
+  margin-left: 200px;
+  
+}
+
+/* CSS for the navbar */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar ul li {
+    display: inline-block;
+    position: relative; /* Needed for dropdowns */
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #060505;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .navbar ul ul {
+    display: none;
+    position: absolute;
+    background-color: rgb(188, 218, 231);
+    z-index: 1;
+  }
+  
+  .navbar ul ul li {
+    width: 250px;
+  }
+  
+  .navbar ul li:hover > ul {
+    display: block;
+  }
+  
+  .navbar ul ul ul {
+    left: 100%;
+    top: 0%;
+  }
+  
+  .navbar ul ul li a {
+    padding: 10px;
+  }
+  
+  /* Optional: Style for icons */
+  .navbar ul li i {
+    margin-left: 10px;
+  }
+  h1{
+    width: 400px;
+    text-align: center;
+    margin-left: 350px;
+    font-family: 'Times New Roman';
+    text-decoration: underline 5px solid blue;
+    letter-spacing: 2px;
+  }
+/* 
+  ul li :nth-of-type(3){
+    background-color: green;
+  } */

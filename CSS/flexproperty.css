@@ -1,0 +1,52 @@
+*{
+    font-family: Arial, Helvetica;
+}
+.container {
+    background-color: violet;
+    margin: 70px auto 0;
+    padding: 0px;
+    border: 3px solid #000;
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: wrap; */
+    /* flex-direction: wrap-reverse; */
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+}
+#item{
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 5px;
+    margin: 20px;
+}
+.first {
+    background: red;
+}
+.second {
+    background: blue;
+}
+.third {
+    background: green;
+}
+.forth {
+    background: pink;
+}
+.fifth {
+    background:salmon;
+}
+.sixth {
+    background: crimson;
+}
+.seventh {
+    background: gold;
+}

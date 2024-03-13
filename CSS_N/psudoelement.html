@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>pseudo element</title>
+
+    <style>
+      /*li::first-letter{
+
+	color:red;
+	font-size:30px;
+
+}*/
+
+      /*p::first-letter{
+
+	color:green;
+	font-size:20px;
+	font-style:italic;
+	font-weight:bold;
+}*/
+
+      /*p::first-line{
+	color:green;
+	font-size:20px;
+}*/
+
+      p::selection {
+        background-color: red;
+        color: white;
+      }
+
+      h1::selection {
+        background-color: green;
+        color: white;
+      }
+
+      /*P::before{
+
+
+	content:"Hello";
+	background:red;
+	font-size:20px;
+}*/
+
+      /*p:hover::before{
+
+	color:red;
+      background:orange;
+      content: "Hello";
+      font-weight: bold;
+	  display:block;
+
+}
+
+p:hover::after{
+
+	content:"World";
+	background:blue;
+	font-size:20px;
+	display:block;
+
+
+}*/
+
+      /*p{
+	color:green;
+}
+*/
+      /*p::first-line{
+	color:orange;
+	background: black;
+}*/
+
+      /*p::selection{
+
+	background: red;
+	color:white;
+}*/
+
+      /*p::selection{
+	user-select:none;
+	user-select: all;
+}*/
+
+      /*p{
+	user-select:none;
+	user-select:all;
+}*/
+
+      /*h1::selection{
+
+background: green;
+color:white;
+}*/
+
+      ::placeholder {
+        color: red;
+      }
+
+      /*option:default{
+
+	color:red;
+	background: black;
+	}
+
+    p{
+    	font-family: verdna;
+    	font-size: 25px;
+    }*/
+
+      p:hover::before {
+        color: red;
+        background: orange;
+        content: "Hello";
+        font-weight: bold;
+        display: block;
+      }
+
+      p:hover::after {
+        color: green;
+        background: green;
+        content: "World";
+        font-weight: bold;
+        display: block;
+      }
+
+      /*p:hover::after{
+      color:orange;
+      background: black;
+      content: "World";
+      display: block;
+
+	}*/
+
+      /*p:hover::after{
+      color:red;
+      background:black; 
+      content: "World";
+     
+
+	}*/
+
+      /*p::before{
+
+		content:"Hello";
+		color:red;
+		font-size:20px;
+		display:block;
+		background-color: orange;
+	}*/
+
+      /*h1::selection{
+
+		background-color:blue;
+		color:white;
+	}*/
+
+      /*p:hover::before{
+
+		content:"Hello";
+		color:red;
+	}
+
+	p:hover::after{
+		content:"World";
+		color:green;
+	}*/
+
+      /*p::after{
+
+		content:"World";
+		color:green;
+		font-size:20px;
+		display:block;
+		background-color: orange;
+	}*/
+
+      /*::placeholder{
+
+     color:red;
+}*/
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>Home</li>
+      <li>About Us</li>
+      <li>Training</li>
+      <li>Gallery</li>
+      <li>Contact us</li>
+    </ul>
+
+    <form>
+      <label>Fname</label>
+      <input type="text" placeholder="Enter your name" />
+
+      <br /><br />
+
+      <label>Lname</label>
+      <input type="text" placeholder="Enter your lname" />
+
+      <br /><br />
+
+      <label>Country</label>
+
+      <select>
+        <option>Select Country</option>
+
+        <option>India</option>
+        <option selected>London</option>
+        <option>China</option>
+      </select>
+    </form>
+
+    <h1>Santosh Selokar</h1>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+      aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+      sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      mollit anim id est laborum.
+    </p>
+
+    <ul>
+      <li>Home</li>
+      <li>About</li>
+      <li>Gallery</li>
+      <li>Contact</li>
+    </ul>
+
+    <p>My name is santosh selokar</p>
+  </body>
+</html>

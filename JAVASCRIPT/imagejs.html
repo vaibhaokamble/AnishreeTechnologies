@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image change using the javascript</title>
+    <script type="text/javascript">
+        function show()
+        {
+            var image=document.getElementById("i");
+            image.src="../Images/image1.webp"
+        }
+        function display()
+        {
+            var image=document.getElementById("i");
+            image.src="../Images/banner.png"
+        }
+    </script>
+</head>
+<body>
+    <img src="../Images/banner.png" id="i" alt="no image found" width="800px" height="500px" onmouseover="show()" onmouseout="display()">
+</body>
+</html>

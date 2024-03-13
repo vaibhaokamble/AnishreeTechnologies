@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM using the function in javascript</title>
+    <script type="text/javascript">
+      function show() {
+        document.getElementById("heading").innerHTML = "Vaibhao Kamble";
+        document.getElementById("heading").style.backgroundColor = "red";
+        document.getElementById("heading").style.color = "black";
+      }
+    </script>
+  </head>
+  <body>
+    <input
+      type="submit"
+      id="submitButton"
+      name="submit"
+      value="submit"
+      onclick="show()"
+    />
+
+    <h1 id="heading">Vaibhao Kamble</h1>
+  </body>
+</html>

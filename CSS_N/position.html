@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .box {
+        width: 150px;
+        height: 150px;
+        border: 2px solid red;
+        display: inline-block;
+      }
+
+      .container {
+        border: 2px solid black;
+
+        height: 1000px;
+      }
+
+      #box3 {
+        /* position:absolute; */
+
+        /* position:relative; */
+
+        /* position:fixed; */
+
+        position: sticky;
+
+        /* position:static; */
+
+        /* position:static; */
+        /* position:absolute; */
+
+        /* position:relative; */
+        /* left:60px; */
+        /* top:55px;  */
+        /* top:3px; */
+        /* bottom:4px;  */
+        /* right:4px; */
+
+        /* left:50px; */
+        /* top:50px; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box" id="box1">Div-A</div>
+      <div class="box" id="box2">Div-B</div>
+      <div class="box" id="box3">Div-C</div>
+      <div class="box" id="box4">Div-D</div>
+
+      <!-- In position we take only one parameter either top or bottom ,left or right  -->
+
+      <!-- position => static,relative,absolute,fixed,sticky -->
+
+      <!-- By default position is sticky -->
+
+      <!-- position absolute relative to it's first parent -->
+
+      <!--  position relative moves according  to it's normal position -->
+
+      <!-- position: fixed according to it's browser window -->
+
+      <!-- position sticky : In position sticky element stick after scroll down to certain position -->
+    </div>
+  </body>
+</html>

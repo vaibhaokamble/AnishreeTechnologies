@@ -1,0 +1,65 @@
+ul{
+	list-style: none;
+}
+
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li{
+	display: inline-block;
+    width:248px;
+    background: black;
+    height:40px;
+    text-align: center;
+    line-height:40px ;
+    color: white;
+    font-family:verdana;
+    position:relative;
+    border:2px solid white;
+    border-radius: 8px;
+}
+
+ul li a{
+	text-decoration: none;
+    display: block;
+    color:white;
+}
+
+ul li a:hover{
+
+	background: purple;
+}
+
+ul ul{
+
+	position:absolute;
+	display:none;
+}
+
+ul li:hover>ul{
+	display:block;
+	border-radius: 8px;
+	z-index:1;
+}
+
+ul ul ul{
+
+	margin-left:248px;
+	top:0px;
+}
+.margin{
+	margin-top: -17px;
+}
+.gallary{
+
+	border: 2px solid black;
+	display: inline-block;
+
+}
+html{
+
+	scroll-behavior: smooth;
+}
