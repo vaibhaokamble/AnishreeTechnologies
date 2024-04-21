@@ -1,0 +1,38 @@
+ul{
+    list-style:none;
+}
+
+ul li{
+    /* display:inline-block; */
+     float:left;
+    width:200px;
+    background:black;
+    height:35px;
+    /* text-align:center; */
+    line-height:35px;
+    border:1px solid white;
+}
+
+/*ul li:hover{
+
+    background-color: purple;
+
+}*/
+
+ul li a{
+    text-decoration:none;
+    color:white;
+    display:block; 
+    text-align: center;
+}
+
+ul li a:hover{
+    background:purple;
+}
+
+*{
+    font-family:courier;
+    font-size:25px;
+    margin:0px;
+    padding:0px;
+}

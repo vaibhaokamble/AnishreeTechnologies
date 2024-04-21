@@ -1,0 +1,43 @@
+
+ul {
+  list-style: none;
+  margin-left: 100px;
+}
+ul li {
+  display: inline-block;
+  width: 250px;
+  background: black;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+ul li a:hover {
+  background: orange;
+}
+* {
+  font-family: verdana;
+  margin: 0px;
+  padding: 0px;
+}
+.box1{
+    height: 680px;
+    width: 1500px;
+    background-image: url(../Images/image1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    clear: both;
+
+}
+#box2{
+    height: 700px;
+    width: 1400;
+    margin-top: 10px;
+    text-align: center;
+    color: aqua;
+}

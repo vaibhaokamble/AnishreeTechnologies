@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>media queries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .div1 {
+            color: orange;
+            text-align: center;
+        }
+        .div2 {
+            width: 100%;
+            max-width: 600px;
+            border: 2px solid black;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+        }
+        .div3 {
+            width: 100%;
+            max-width: 400px;
+            float: right;
+            margin-right: 20px;
+        }
+        @media screen and (max-width: 1000px) {
+            .div2, .div3 {
+                float: none;
+                width: 100%;
+                max-width: none;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1>Tours With My Family</h1>
+    </div>
+    <div class="div2">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et erat ullamcorper, malesuada mauris vel, fringilla augue. Aliquam suscipit, tellus eget lobortis rhoncus, ligula sapien pulvinar nisi, nec lobortis dui dolor quis tortor. Donec efficitur justo augue, vitae mattis dolor maximus eu. Suspendisse suscipit sit amet nibh sodales efficitur. Cras.</p>
+    </div>
+    <div class="div3">
+        <img src="../Images/innocent.jpg" width="100%" style="border: 2px solid red;">
+    </div>
+</body>
+</html>

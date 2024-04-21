@@ -1,0 +1,68 @@
+.container{
+  height: 3000px;
+  background-color: khaki;
+}
+.first {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+  position: relative;
+  left: 200px;
+}
+
+.second {
+  width: 100px;
+  height: 100px;
+  background-color: palevioletred;
+  text-align: center;
+  position: static;
+}
+.ifirst {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+}
+.isecond {
+  width: 100px;
+  height: 100px;
+  background-color: palegreen;
+  position: absolute;
+}
+.third {
+  width: 400px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  left: 200px;
+  padding: 1px;
+}
+.forth {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: fixed;
+  left: 200px;
+}
+.fifth {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+  position: sticky;
+  top: 3px;
+}
+.six {
+  width: 100px;
+  height: 100px;
+  background-color: darkred;
+  text-align: center;
+}
+.seven {
+  width: 100px;
+  height: 100px;
+  background-color: mediumturquoise;
+  text-align: center;
+}

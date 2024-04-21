@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>map in javascript</title>
+
+    <!-- map(): this method create a new array by performing a function on each array element Syntax: map(function); -->
+    <script type="text/javascript">
+      let a = [30, 90, 40];
+      let b = a.map(mul);
+      function mul(value, index, array) {
+        return value * 2;
+      }
+      document.write(b);
+    </script>
+  </head>
+  <body></body>
+</html>

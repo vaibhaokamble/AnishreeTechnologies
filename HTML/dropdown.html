@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dropdown Navbar</title>
+    <link rel="stylesheet" href="../CSS/dropdown.css" />
+    <script
+      src="https://kit.fontawesome.com/72c53a8029.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- the one key thing to remember  when trying to possition a child div realtive to it parent is parent is that tha child should be given the css property position:absolute; and the parent set to either position:absolute; or position:relative -->
+
+    <div class="main">
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">About Us</a></li>
+        <li class="dropdown">
+          <a href="#training" class="dropbtn"
+            >Training &nbsp; <i class="fa-solid fa-circle-chevron-down"></i>
+          </a>
+          <div class="dropdown-content">
+            <a href="#core_java">Core Java</a>
+            <a href="#advance_java">Advance Java</a>
+            <a href="#html">HTML</a>
+            <a href="#css">CSS</a>
+            <a href="#js">JS</a>
+            <a href="#bootstrap">Bootstrap</a>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact us">Contact Us</a></li>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>

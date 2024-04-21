@@ -1,0 +1,61 @@
+#main {
+    background-color: white;
+    width: 1500px;
+    height: 700px;
+    border: 5px solid;
+    border-color: darkred;
+}
+h1 b{
+    font-size: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: red;
+}
+b{
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.first{
+    width: 200px;
+    height: 100px;
+    margin-left: 1250px;
+    margin-top: -100px;
+}
+img.second{
+        height: 100px;
+        width: 120px;
+        margin-top: -150px;
+}
+.box1{
+    margin-left: 1300px;
+}
+div.total{
+    float: left;
+    width: 300px;
+    height: 100px;
+    margin-left: 50px;
+    margin-top:20px ;
+    float: left;
+    font-size: 14px;
+    border-right: 12px solid gold;
+
+    
+}
+.total p b{
+    font-size: 18px;
+    height: 6px;
+}
+
+.hm{
+    float: left;
+    margin-top: 100px;
+}
+.hmm{
+    margin-top: -300px;
+}
+.para{
+    margin-top: -80px;
+    font-size: 11px;
+}
+p h5{
+    font-size: 60px;
+}

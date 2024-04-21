@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>table with css</title>
+
+    <style>
+      table,
+      th,
+      td {
+        border: 2px solid black;
+      }
+
+      table {
+        border-collapse: collapse;
+
+        width: 80%;
+
+        margin-left: 150px;
+      }
+
+      th,
+      td {
+        height: 60px;
+        text-align: center;
+      }
+
+      td {
+        /* vertical-align: top; */
+
+        /* vertical-align:bottom; */
+        vertical-align: center;
+      }
+
+      /*tr:hover{
+
+	background: orange;
+}*/
+
+      tr:nth-child(even) {
+        background: green;
+      }
+
+      tr:nth-child(odd) {
+        background: hotpink;
+      }
+
+      tr:hover {
+        background: orange;
+      }
+
+      th,
+      td {
+        color: white;
+
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption style="color: crimson; font-size: 20px; caption-side: bottom">
+        Personal Information
+      </caption>
+
+      <tr>
+        <th>Sr.No.</th>
+
+        <th>Name</th>
+
+        <th>City</th>
+
+        <th>Contact no</th>
+      </tr>
+
+      <tr>
+        <td>1</td>
+
+        <td>Santosh</td>
+
+        <td>Nagpur</td>
+
+        <td>123456</td>
+      </tr>
+
+      <tr>
+        <td>2</td>
+
+        <td>Gopal</td>
+
+        <td>Chandrapur</td>
+
+        <td>3456</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+
+        <td>Prajwal</td>
+
+        <td>Nagpur</td>
+
+        <td>3456</td>
+      </tr>
+
+      <tr>
+        <td>4</td>
+
+        <td>Pooja</td>
+
+        <td>Akola</td>
+
+        <td>987456</td>
+      </tr>
+    </table>
+  </body>
+</html>

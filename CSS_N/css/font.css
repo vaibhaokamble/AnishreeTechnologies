@@ -1,0 +1,14 @@
+@font-face{
+
+    /*font-family:CourierPrime-BoldItalic;*/
+
+    /*font-family:src:url(../fonts/CourierPrime-BoldItalic.ttf); */
+
+    font-family:KodeMono-Bold;
+    src:url(../fonts/KodeMono-Bold.ttf);
+}
+
+/*#box{
+    color:red;
+    font-family: courier;
+}*/

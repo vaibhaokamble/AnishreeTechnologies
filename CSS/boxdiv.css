@@ -1,0 +1,34 @@
+
+.box{
+    width: 150px;
+    height: 70px;
+    background-color: aqua;
+    display: inline;
+    font-size: 30px;
+}
+
+.box a{
+    color: white;
+    padding: 30px;
+}
+
+.box a:hover{
+    color: white;
+    padding: 10px;
+}
+
+#box1{
+    background-color: rebeccapurple;
+}
+#box2{
+    background-color: blue;
+}
+#box3{
+    background-color: red;
+}
+#box4{
+    background-color: springgreen;
+}
+#box5{
+    background-color: black;
+}

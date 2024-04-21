@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css form</title>
+
+	<style>
+
+input[type=text],select
+{
+
+width:100%;
+
+border:2px solid grey;
+
+border-radius: 5px;
+
+padding:10px;
+
+box-sizing: border-box;
+}
+
+input[type=submit]{
+
+	width:100%;
+	background-color:black;
+	border-radius: 5px;
+	padding:10px;
+	font-size: 20px;
+	color:white;
+	border:2px solid white;
+}
+
+input[type=submit]:hover{
+
+	background:sandybrown;
+}
+
+#grad{
+
+	 padding:30px;
+	 border-radius:10px;
+	/*border:2px solid black;*/
+	background: linear-gradient(to bottom right,lightblue,pink);
+}
+
+
+nalabel{
+
+	font-size:20px;
+	/*color:white;*/
+	color:crimson;
+}
+
+	</style>
+</head>
+<body>
+
+<div id="grad">
+
+<form>
+
+<label for="fname">First name</label>
+
+<input type="text" id="fname">
+
+
+<label for="lname">Last name</label>
+
+<input type="text" id="lname">
+
+<label for="count">Country</label>
+
+<select id="count">
+
+<option>Select Country</option>
+
+<option>India</option>
+
+<option>Nepal</option>
+
+<option>USA</option>
+
+</select>
+
+<br/><br/>
+<input type="submit" value="Submit">
+</form>
+-
+</div>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+.container{
+     height: 1500px; 
+}
+
+.nav{
+    list-style-type: none ;
+    background-color: rgb(177, 28, 167);
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: sticky;
+    top: 0;
+}
+
+.nav li{
+    display: inline;
+    padding: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: white;
+}
+.nav li :hover{
+    background-color: rgb(187, 156, 211);
+    color: white;
+    padding: 15px;
+}

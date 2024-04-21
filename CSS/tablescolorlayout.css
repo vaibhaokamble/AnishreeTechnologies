@@ -1,0 +1,39 @@
+h1 {
+  font-size: 70px;
+  font-family: monospace;
+  color: red;
+}
+
+h1:hover {
+  color: blue;
+  transition: all 3s;
+  text-decoration: underline;
+  text-decoration-color: chartreuse;
+}
+
+table {
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+}
+
+td,th {
+  text-align: center;
+  padding: 8px;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table,th,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(even)  {
+    background-color: rgb(208, 163, 208);
+}
+tr:nth-child(odd){
+    background-color: rgb(216, 129, 216)    ;
+}
+tr:hover{
+    background-color: orange;
+}

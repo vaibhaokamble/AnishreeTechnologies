@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.maindiv {
+  border: 3px solid hotpink;
+  color: white;
+  width: 300px;
+  text-align: center;
+  margin: 20px auto;
+  outline: 3px solid orange;
+  outline-offset: 5px;
+  background-color: #000;
+}
+.maindiv:hover {
+  border: 3px solid blue;
+  outline: 3px solid green;
+  outline-offset: 5px;
+  background-color: #fff;
+  color: black;
+}
+
+.gallery {
+  border: 2px solid blue;
+  padding: 10px;
+  width: 255px;
+  /* float: left; */
+  margin: 45px;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.09), 0 4px 2px rgba(0, 0, 0, 0.09),
+    0 8px 4px rgba(0, 0, 0, 0.09), 0 16px 8px rgba(0, 0, 0, 0.09),
+    0 32px 16px rgba(0, 0, 0, 0.09);
+  transition: background-color 0.3s ease;
+}
+.gallery:hover {
+  transform: scale(1.1);
+}
+.gallery a img {
+  width: 250px;
+  height: 280px;
+  border: 2px groove;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.desc {
+  padding: 10px;
+  text-align: center;
+  border: 2px solid lightblue;
+  width: 230px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: Arial;
+  background-color: green;
+  color: white;
+}
+p:hover {
+  background-color: red;
+  color: white;
+}

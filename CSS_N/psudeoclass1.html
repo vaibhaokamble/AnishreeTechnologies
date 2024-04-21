@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>pseudo class</title>
+
+    <style>
+      /*input:focus{
+      border:2px solid red;
+	  background:red;
+	}*/
+
+      input[type="checkbox"]:checked + label {
+        /* box-shadow: 0 0 0 3px red; */
+        color: blue;
+      }
+
+      /*input[type="radio"]:checked{
+		box-shadow: 0 0 0 3px red;
+	}*/
+
+      /*input[type="radio"]:checked+label{
+		color:red;
+	}*/
+      /*input:enabled{
+		border:2px solid red;
+	}
+
+	input[type='text']:disabled{
+		border:2px solid blue;
+	}*/
+
+      /*input:required{
+		border:2px solid red;
+		background: wheat;
+
+	}
+
+	input:optional{
+		border:2px solid green;
+		background: wheat;
+
+	}*/
+
+      input:in-range {
+        border: 2px solid red;
+        background: wheat;
+      }
+
+      input:out-of-range {
+        border: 2px solid black;
+        background: blue;
+      }
+
+      /*input:read-only{
+		border:2px solid red;
+		background: wheat;
+	}
+
+	input:read-write{
+		border:2px solid red;
+		background: wheat;
+	}*/
+      /*input[type='email']:invalid{
+            border:2px solid red;
+		    background: wheat;
+	} 
+
+	input[type='email']:valid{
+            border:2px solid blue;
+		    background: wheat;
+	}*/
+
+      /*input:[type='email']:invalid{
+            border:2px solid red;
+		    background: wheat;
+	} */
+
+      /*input:[type='email']:valid{
+            border:2px solid red;
+		    background: wheat;
+	} */
+
+      /*input:default{
+
+		box-shadow:0 0 0 3px red;
+	}*/
+
+      /*input:default+label{
+
+		box-shadow:0 0 0 3px red;
+		color:red;
+	}*/
+      option:default {
+        color: red;
+      }
+      :root {
+        --mainColor: blue;
+      }
+      h1 {
+        color: var(--mainColor);
+      }
+
+      p {
+        color: var(--mainColor);
+      }
+
+      /*default used with option tag ,checkbox and radio */
+
+      /*read-only & read-write*/
+    </style>
+  </head>
+  <body>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora
+      quasi voluptates quam repudiandae iste ex id aperiam natus exercitationem.
+    </p>
+
+    <h1>Anishree Technologies,Nagpur</h1>
+    <!-- focus,checked,disabled,enabled,required,optional,in-range,out-of-range,read-only,read-write,valid,invalid,default,root -->
+
+    <form>
+      <label>fname</label>
+
+      <input type="text" />
+
+      <br /><br />
+
+      <label>lname</label>
+
+      <input type="text" />
+
+      <br /><br />
+
+      <label>email</label>
+
+      <input type="email" required />
+
+      <br /><br />
+
+      <label>Age</label>
+
+      <input type="number" min="20" max="30" />
+
+      <br /><br />
+
+      <label>Hobbies</label>
+
+      <input type="checkbox" checked />
+
+      <label>Music</label>
+
+      <input type="checkbox" checked />
+
+      <label>Travel</label>
+
+      <input type="checkbox" checked />
+
+      <label>Read</label>
+
+      <br /><br />
+
+      <label>Gender</label>
+
+      <input type="radio" />
+
+      <label>Male</label>
+
+      <input type="radio" />
+
+      <label>Female</label>
+
+      <input type="radio" />
+
+      <label>Others</label>
+
+      <br /><br />
+
+      <label>Country</label>
+
+      <select>
+        <option>Select Country</option>
+        <option value="India">India</option>
+        <option value="London" selected>London</option>
+        <option value="China">China</option>
+      </select>
+      <br /><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>

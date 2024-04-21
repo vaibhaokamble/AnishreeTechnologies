@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital clock using javascript</title>
+    <script type="text/javascript">
+      var v;
+      var s;
+      function start() {
+        s = setInterval(display, 1000);
+      }
+      function display() {
+        v = new Date();
+        var heading = document.getElementById("h");
+        heading.innerHTML = v.toLocaleTimeString();
+      }
+      function stop() {
+        clearInterval(s);
+      }
+    </script>
+    <style>
+      .btn {
+        width: 170px;
+        height: 40px;
+        border-radius: 10px;
+      }
+      #h {
+        margin-left: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <input
+      type="submit"
+      name="s"
+      value="start clock"
+      class="btn"
+      onclick="start()"
+    />
+    &nbsp; &nbsp;
+    <input
+      type="submit"
+      name="s"
+      value="stop clock"
+      class="btn"
+      onclick="stop()"
+    />
+    <h1 id="h"></h1>
+  </body>
+</html>

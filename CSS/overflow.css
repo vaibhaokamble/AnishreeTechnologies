@@ -1,0 +1,26 @@
+.container{
+    margin: 20%;
+    height: 500px;
+    width: 400px;
+    padding: 5px;
+    border: 2px solid blueviolet;
+    background-color: tomato;
+    overflow-x: hidden;
+    color: white;
+}
+
+img{
+    height: 200px;;
+    width: 390px;
+    opacity: 0.8;
+}
+
+h1{
+
+    color: chartreuse;
+    text-align: center;
+    font-family: monospace;
+}
+h1:hover{
+    color: rebeccapurple;
+}

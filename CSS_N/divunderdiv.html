@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- space inside box is called padding and space outside box is called margin
+ padding values can't be negative but margin values can be negative-->
+
+    <style>
+      #box1 {
+        width: 450px;
+        border: 2px solid red;
+        /*padding-top:10px;
+            padding-right:20px;
+            padding-bottom:30px;
+            padding-left:20px;*/
+
+        padding: 10px 20px;
+        /*border-width:2px;
+            border-style:solid;
+            border-color:red;*/
+        /* border:5px double red; */
+        /* border:5px outset; */
+
+        /*border-top:5px dotted red;
+            border-right:8px  dashed green;
+            border-bottom:7px solid blue;
+            border-left:7px double pink;*/
+
+        /*border-top:0px;
+            border-right:0px;
+            border-bottom:7px solid blue;
+            border-left:0;*/
+        height: 200px;
+        margin: auto;
+      }
+
+      #box2 {
+        width: 350px;
+        border: 2px solid red;
+        height: 160px;
+        margin: auto;
+      }
+
+      #box3 {
+        width: 270px;
+        border: 2px solid red;
+        height: 110px;
+        margin: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box1">
+      Main Div
+
+      <div id="box2">
+        1st Div
+
+        <div id="box3">2nd Div</div>
+      </div>
+    </div>
+  </body>
+</html>
