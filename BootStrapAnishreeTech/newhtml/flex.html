@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLex in bootstrap</title>
+    <style>
+        .col{
+            min-height: 100px;
+        }
+        .container{
+            border: 2px solid black;
+        }
+        .row{
+            border: 2px solid red;
+        }
+    </style>
+    <link rel="stylesheet" href="../Css/bootstrap.css">
+    <script src="../Js/bootstrap.js"></script>
+</head>
+<body>
+
+
+    <!-- flex-direction = by default
+    flex-direction = row reverse
+    flex-direction = column
+    flex-direction = column-reverse
+    flex-direction = wrap
+    flex-direction = wrap-reverse
+    flex-direction = nowrap
+    flex-fill = only on col class -->
+
+
+
+    <div class="container">
+        <div class="row flex">
+            <div class="col-md-3 bg-primary">
+                <h3>Div-A</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, obcaecati!
+            </div>
+            
+            <div class="col-md-3 bg-danger">
+                <h3>Div-B</h3>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, neque.
+            </div>
+
+            <div class="col-md-3 bg-success">
+                <h3>Div-C</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsum.
+            </div>
+
+            <div class="col-md-3 bg-secondary">
+                <h3>Div-D</h3>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, obcaecati!
+            </div>
+            
+            <div class="col-md-3 bg-warning">
+                <h3>Div-E</h3>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora, neque.
+            </div>
+
+            <div class="col-md-3 bg-info">
+                <h3>Div-F</h3>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, ipsum.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
