@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Video In Bootstrap</title>
+    <link rel="stylesheet" href="../Css/bootstrap.css">
+    <style>
+        .container {
+            border: 3px solid black;
+        }
+
+        img {
+            width: 200px;
+            height: 250px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Image In Bootstrap -->
+    <div class="container">
+        <center>
+            <h1>Responsive Images In BootStrap</h1>
+        </center> <br><br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../Images/sweetcouple.jpg" alt="" class="img-fluid rounded">
+            </div>
+            <div class="col-md-4">
+                <img src="../Images/sweetcouple.jpg" alt="" class="img-fluid img-thumbnail">
+            </div>
+            <div class="col-md-4">
+                <img src="../Images/sweetcouple.jpg" alt="" class="img-fluid rounded-circle">
+            </div>
+        </div> <br><br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../Images/sweetcouple.jpg" alt="" class="img-fluid rounded-bottom">
+            </div>
+            <div class="col-md-4">
+                <img src="../Images/sweetcouple.jpg" alt="" class="img-fluid rounded-top">
+            </div>
+            <div class="col-md-4">
+                <img src="../Images/sweetcouple.jpg" alt="" class="img-fluid rounded-pill"
+                    style="height: 300px; width: 200px;">
+            </div>
+        </div>
+    </div>
+
+    <!-- Video In BootStrap -->
+
+    <div class="container mb-5">
+        <center>
+            <h1>Responsive Video In Bootstrap</h1>
+        </center>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe  class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/8XbTb9yt0Ls?si=LbQ57sIDW_oUwyn1" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="embed-responsive embed-responsive-1by1">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/8XbTb9yt0Ls?si=LbQ57sIDW_oUwyn1" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div  class="embed-responsive embed-responsive-21by9">
+                    <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/8XbTb9yt0Ls?si=LbQ57sIDW_oUwyn1" frameborder="0"></iframe>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/8XbTb9yt0Ls?si=LbQ57sIDW_oUwyn1" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
