@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local global variable in JS</title>
+</head>
+<body>
+    <script>
+        let a=10; //global variable
+        function myfun(){
+            let b=20; //local variable
+            let sum=a+b;
+            document.write("Sum is: "+sum);
+        }
+        myfun()
+        document.write("<br>Value of a: "+a);
+    </script>
+</body>
+</html>

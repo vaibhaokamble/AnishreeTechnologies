@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parameter Function</title>
+</head>
+
+<body>
+    <script>
+        /* Functions With Parameters*/
+        function hello(fname, lname) {
+            document.write("Hello " + fname + " " + lname + "<br>");
+        }
+
+        hello("Vaibhao", "Kamble");
+
+        /* Function With Return Value*/
+
+        function fullname(fname, lname) {
+            var a = fname + " " + lname;
+
+            return a;
+        }
+
+        var fn = fullname("Vaibhao", "VK");
+        document.write(fn);
+    </script>
+</body>
+
+</html>

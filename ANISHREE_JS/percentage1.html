@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage in JS</title>
+</head>
+<body>
+    <script>
+        let total=(english,hindi,marathi)=>{
+            let st=english+marathi+hindi;
+        return st;
+        }
+
+        let sst=total(60,60,60)
+        document.write(`Total scoring marks in subject : ${sst} <br>`)
+        let pert=(tt1)=>{
+            let per=tt1*100/300;
+            return per;
+        }
+
+        let pt=pert(sst);
+        document.write(`Total percentage is : ${pt}`)
+    </script>
+</body>
+</html>
