@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Sum and Product</title>
+</head>
+<body>
+    <script>
+        let size = parseInt(prompt("Enter the size of the array"));
+        let sum = 0;
+        let product = 1; // Initialize product to 1
+        let arr = [];
+
+        // To take input array elements
+        for (let i = 0; i < size; i++) {
+            arr[i] = parseInt(prompt("Enter the elements"));
+        }
+
+        // To print the array list and calculate the sum and product
+        document.write("Array elements: ");
+        for (let i = 0; i < size; i++) {
+            document.write(arr[i] + " ");
+            sum =sum + arr[i];
+            product = product * arr[i]; // Corrected product calculation
+        }
+
+        document.write("<br>Sum of array is: " + sum);
+        document.write("<br>Product of array is: " + product);
+    </script>
+</body>
+</html>
