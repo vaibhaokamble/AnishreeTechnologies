@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Frequency in JS</title>
+</head>
+<body>
+    <script>
+        let arr=[10,20,30,10,20,40,50,40,100]
+        let search=parseInt(prompt("search the element"))
+        let count=0
+        for(let i=0; i<9;i++){
+            if(arr[i]==search){
+                count=count+1;
+            }
+        }
+        document.write("Frequency of search element: "+count)
+    </script>
+</body>
+</html>

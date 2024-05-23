@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 to 100 Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ffcc33, #ff66cc);
+            color: #333;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: auto;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="10">Numbers from 1 to 100</th>
+            </tr>
+        </thead>
+        <tbody id="numberTable">
+        </tbody>
+    </table>
+
+    <script>
+        let tbody = document.getElementById('numberTable');
+        for (let i = 1; i <= 100; i += 10) {
+            let row = '<tr>';
+            for (let j = i; j < i + 10; j++) {
+                row += `<td>${j}</td>`;
+            }
+            row += '</tr>';
+            tbody.innerHTML += row;
+        }
+    </script>
+</body>
+</html>

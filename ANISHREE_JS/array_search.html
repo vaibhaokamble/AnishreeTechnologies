@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Element in JS</title>
+</head>
+
+<body>
+    <!-- <script>
+        let arr=[10,20,30,40,50,60,70,80,90,100];
+        let search=parseInt(prompt("Enter the number you want to search"));
+        for (let i = 0; i < 10; i++) {
+            if (arr[i]==search) {
+                POS=i+1;
+            }
+            else{
+            }
+        }
+        document.write("NOT FOUND: " +search)
+        document.write("Position : " +POS);
+        
+    </script> -->
+        <script>
+            let arr = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+            let search = parseInt(prompt("Enter the number you want to search"));
+            let found = false;
+            let position = -1;
+
+            for (let i = 0; i < arr.length; i++) {
+                if (arr[i] === search) {
+                    found = true;
+                    position = i + 1;
+                    break;
+                }
+            }
+
+            if (found) {
+                document.write("Found: " + search + " at position: " + position);
+            } else {
+                document.write("Not Found: " + search);
+            }
+        </script>
+
+</body>
+
+</html>
