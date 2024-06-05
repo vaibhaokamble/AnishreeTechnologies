@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            background-color: aqua;
+            color: red;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo quisquam facilis odio corporis eius laborum dolore accusamus tenetur odit quae voluptate, voluptates eveniet cupiditate rem asperiores aspernatur. Laboriosam molestias facere aliquam tempore dolore inventore officiis illum doloremque facilis voluptatum natus id fugiat, placeat explicabo libero impedit quod, nam repellat. Tempora.</p>
+    </div>
+    <script>
+        // var newElement=document.createElement("h1")
+        // var newText=document.createTextNode("My First Session Of JS")
+        // newElement.appendChild(newText)
+
+        // console.log(newElement)
+
+        // var target=document.getElementById("box")
+        // target.insertAdjacentElement("beforebegin",newElement)
+        // target.insertAdjacentElement("afterend",newElement)
+        // target.insertAdjacentElement("afterbegin",newElement)
+        // target.insertAdjacentElement("beforeend",newElement)
+
+        var newtest="<h1> Hey Its Second Method <h1>"
+        var target=document.getElementById("box")
+        target.insertAdjacentHTML("afterbegin",newtest)
+        // target.insertAdjacentHTML("afterend",newtest)
+        // target.insertAdjacentHTML("endbegin",newtest)
+        // target.insertAdjacentHTML("endbegin",newtest)
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object in JS</title>
+</head>
+<body>
+    <script>
+        let obj={name:"vaibhao", address:"nagpur", contact:8668822302}
+        console.log(obj);
+        console.log(obj.name+" "+obj.address+" "+obj.contact)
+        for(let i=0;i<obj; i++){
+            console.log(obj[i].name+obj[i].address+obj[i].contact)
+        }
+        for(x in obj){
+            console.log(x+" "+obj[x])
+        }
+    </script>
+</body>
+</html>

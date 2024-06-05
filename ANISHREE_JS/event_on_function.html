@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <button onclick="abc()" id="bt">Click Here</button>
+        <button onclick="abc()" id="btn">Click Here</button>
+    </center>
+    <script>
+
+        function abc(){
+            document.getElementById("bt").style.backgroundColor="pink";
+            document.querySelector("#bt").addEventListener("click",abc);
+        }
+
+        document.querySelector("#btn").addEventListener("click",function(){
+            this.style.background="green";
+            this.style.fontSize="20px";
+            this.style.color="white";
+        });
+    </script>
+</body>
+</html>
