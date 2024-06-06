@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Replace Child To New</title>
+</head>
+<body>
+    <ul id="ul">
+        <li>Vaibhao</li>
+        <li>Vidhya</li>
+        <li>Akshat</li>
+        <li>Mahin</li>
+    </ul>
+    <script>
+        var newElement=document.createElement("li")
+        var newText=document.createTextNode("I am new here")
+        newElement.appendChild(newText)
+
+        var target=document.getElementById("ul")
+        var oldElement=target.children[1]
+        target.replaceChild(newElement,oldElement)
+    </script>
+</body>
+</html>

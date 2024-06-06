@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List in DOM</title>
+</head>
+<style>
+    #box{
+        border: 3px solid blue;
+        background-color: black;
+        color: white;
+        font-size: large;
+    }
+</style>
+<body>
+    <ul id="list1">
+        <li>Vibhas</li>
+        <li>Aniket</li>
+        <li>Ganeshan</li>
+        <li>Saurabh</li>
+    </ul>
+
+    <ul id="list2">
+        <li>Vaibhao</li>
+        <li>Vidhya</li>
+        <li>Akshat</li>
+        <li>Mahin</li>
+    </ul>
+    <div id="box"></div>
+    <script>
+        var element=document.getElementById("list2").children[0]
+        var copy=element.cloneNode(true)
+        document.getElementById("list1").appendChild(copy)
+        document.getElementById("box").appendChild(copy)
+    </script>
+</body>
+</html>
